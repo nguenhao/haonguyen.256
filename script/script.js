@@ -1,0 +1,3 @@
+function testbut() {
+    alert("hello")
+}
