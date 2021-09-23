@@ -1,3 +1,3 @@
 function testbut() {
-    alert("hello")
+    alert("Chào mọi người")
 }
