@@ -1,16 +1,33 @@
 body {
-    background-color: rgba(118, 243, 252, 0.856);
+    background-color: rgba(144, 236, 243, 0.856);
 }
 #logo {
     color: rgb(0, 0, 0);
     font-size: 5em;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(134, 134, 134);
     padding-left: 1em;
     padding-top: 8px;
     margin-left: -8px;
     margin-right: -8px;
     margin-top: -10px;
+}
+.menubar {
+    font-size: 30px;
+    color: rgb(0, 179, 179);
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(204, 204, 204);
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    border-color: black;
+    margin-left: -8px;
+    margin-top: -80px;
+    margin-right: -8px;
+    margin-bottom: 1em;
+    
 }
 #underlogo {
     font-size: 3em;
@@ -30,26 +47,36 @@ body {
     margin-left: 4em;
     margin-top: 1em;
     margin-right: 1em;
-    margin-bottom: 1em;
-    
-}
-
-.end {
-    color: orangered;
-}
-#end1 {
-    color: rgb(255, 255, 255);
+    margin-top: 1em;
 }
 #but1 {
     background-color: rgb(255, 255, 255);
-    list-style: circle;
 }
 a:link, a:visited { 
     color: black;
     text-decoration: none;
     cursor: pointer;
-    
+}
+a:hover {
+    color: rgb(0, 179, 179);
 }
 a:link:active, a:visited:active { 
     color: rgb(0, 51, 145);
+}
+#end-1{
+    color: black;
+    background-color: white;
+    font-family: arial;
+    font-size: 13px;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    margin-left: -8px;
+    margin-top: 0;
+    margin-right: -8px;
+    margin-bottom: -10px;
+}
+.space {
+    padding-top: 2em;
 }
