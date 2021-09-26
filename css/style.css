@@ -31,7 +31,6 @@ body {
     display: inline-block;
 }
 .menubar a:hover {
-    padding: 10px;
     background-color: white;
 }
 #search {
