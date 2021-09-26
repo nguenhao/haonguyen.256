@@ -4,9 +4,9 @@ body {
 }
 #logo {
     color: rgb(0, 0, 0);
-    font-size: 5em;
+    font-size: 4em;
     background-color: rgb(134, 134, 134);
-    padding: 10px;
+    padding: 0px;
     padding-left: 1em;
     margin-left: -8px;
     margin-right: -8px;
@@ -19,23 +19,25 @@ body {
     background-color: rgb(204, 204, 204);
     margin-left: -8px;
     padding-left: 2em;
-    margin-top: -80px;
+    margin-top: -64px;
     margin-right: -8px;
+    transition: 0.3s;
 }
 .menubar a {
     font-size: 16px;
     color: white;
-    padding: 20px;
+    padding: 17px;
     text-decoration: none;
     text-align: left;
     display: inline-block;
+    transition: 0.3s;
 }
 .menubar a:hover {
     background-color: white;
 }
 #search {
     font-size: 20px;
-    border-radius: 4px;
+    border-radius: 15px;
     border: none;
     padding: 5px;
     margin: 5px;
