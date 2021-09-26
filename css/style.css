@@ -1,43 +1,51 @@
 body {
     background-color: rgba(144, 236, 243, 0.856);
+    font-family: Arial, Helvetica, sans-serif;
 }
 #logo {
     color: rgb(0, 0, 0);
     font-size: 5em;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(134, 134, 134);
+    padding: 10px;
     padding-left: 1em;
-    padding-top: 8px;
     margin-left: -8px;
     margin-right: -8px;
     margin-top: -10px;
+    position: sticky;
 }
+
 .menubar {
-    font-size: 30px;
-    color: rgb(0, 179, 179);
-    font-style:normal;
-    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
     background-color: rgb(204, 204, 204);
-    padding-left: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    border-color: black;
     margin-left: -8px;
+    padding-left: 2em;
     margin-top: -80px;
-    margin-right: -8px;
-    margin-bottom: 1em;
-    
+    margin-right: -10px;
+}
+.menubar a {
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    text-align: left;
+    display: inline-block;
+}
+.menubar a:hover {
+    background-color: white;
+}
+#search {
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
 }
 #underlogo {
-    font-size: 3em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    display: inline-block;
 }
 #div1 {
     font-size: 30px;
     color: rgb(0, 179, 179);
     font-style:normal;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(204, 204, 204);
     padding-left: 1em;
     padding-top: 1em;
@@ -48,17 +56,48 @@ body {
     margin-top: 1em;
     margin-right: 1em;
     margin-top: 1em;
+    border-radius: 5px;
 }
-#but1 {
-    background-color: rgb(255, 255, 255);
+.btnhome {
+    border: none;
+    background-color: inherit;
+    padding: 30px 40px;
+    font-size: 20px;
+    font-style: initial;
+    cursor: pointer;
+    display: inline-block;  
+  }
+  
+  .btnhome:hover {background: rgb(134,134,134);}
+  .btnhome:link,.btnhome:active {
+      background-color: white;
+  }
+.testbtn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.testbtn:hover {
+    background-color: #3e8e41;
+    color: white;
+    cursor: pointer;
 }
 a:link, a:visited { 
+    border: none;
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 a:hover {
     color: rgb(0, 179, 179);
+    
+    display: inline-block;
 }
 a:link:active, a:visited:active { 
     color: rgb(0, 51, 145);
@@ -73,9 +112,9 @@ a:link:active, a:visited:active {
     padding-bottom: 1em;
     padding-right: 1em;
     margin-left: -8px;
-    margin-top: 0;
     margin-right: -8px;
     margin-bottom: -10px;
+    position: static;  
 }
 .space {
     padding-top: 2em;
