@@ -31,6 +31,7 @@ body {
     display: inline-block;
 }
 .menubar a:hover {
+    padding: 10px;
     background-color: white;
 }
 #search {
@@ -39,23 +40,16 @@ body {
     border: none;
 }
 #underlogo {
-    font-size: 1em;
-    display: inline-block;
+    font-size: 2em;
 }
 #div1 {
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(0, 179, 179);
     font-style:normal;
     background-color: rgb(204, 204, 204);
-    padding-left: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
+    padding: 1em;
     border-color: black;
-    margin-left: 4em;
-    margin-top: 1em;
-    margin-right: 1em;
-    margin-top: 1em;
+    margin: 1em;
     border-radius: 5px;
 }
 .btnhome {
