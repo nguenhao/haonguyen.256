@@ -4,3 +4,4 @@ function Hello() {
 function nullll(){
     alert("Not update!")
 }
+document.getElementsByName('search').alert("hi")
